@@ -1,0 +1,1859 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='NYPD_Arrest_Data__Year_to_Date_' inline='true' name='federated.1151yy41web51c1ffx2wr0afqpqi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NYPD_Arrest_Data__Year_to_Date_' name='textscan.1fzx9fy0we5ktu168i44h16gf0zl'>
+            <connection class='textscan' directory='C:/Users/Mohit R Kamble/Downloads' filename='NYPD_Arrest_Data__Year_to_Date_.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1fzx9fy0we5ktu168i44h16gf0zl' name='NYPD_Arrest_Data__Year_to_Date_.csv' table='[NYPD_Arrest_Data__Year_to_Date_#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='ARREST_KEY' ordinal='0' />
+            <column datatype='date' name='ARREST_DATE' ordinal='1' />
+            <column datatype='integer' name='PD_CD' ordinal='2' />
+            <column datatype='string' name='PD_DESC' ordinal='3' />
+            <column datatype='integer' name='KY_CD' ordinal='4' />
+            <column datatype='string' name='OFNS_DESC' ordinal='5' />
+            <column datatype='string' name='LAW_CODE' ordinal='6' />
+            <column datatype='string' name='LAW_CAT_CD' ordinal='7' />
+            <column datatype='string' name='ARREST_BORO' ordinal='8' />
+            <column datatype='integer' name='ARREST_PRECINCT' ordinal='9' />
+            <column datatype='integer' name='JURISDICTION_CODE' ordinal='10' />
+            <column datatype='string' name='AGE_GROUP' ordinal='11' />
+            <column datatype='string' name='PERP_SEX' ordinal='12' />
+            <column datatype='string' name='PERP_RACE' ordinal='13' />
+            <column datatype='integer' name='X_COORD_CD' ordinal='14' />
+            <column datatype='integer' name='Y_COORD_CD' ordinal='15' />
+            <column datatype='real' name='Latitude' ordinal='16' />
+            <column datatype='real' name='Longitude' ordinal='17' />
+            <column datatype='string' name='New Georeferenced Column' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1fzx9fy0we5ktu168i44h16gf0zl' name='NYPD_Arrest_Data__Year_to_Date_.csv' table='[NYPD_Arrest_Data__Year_to_Date_#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='ARREST_KEY' ordinal='0' />
+            <column datatype='date' name='ARREST_DATE' ordinal='1' />
+            <column datatype='integer' name='PD_CD' ordinal='2' />
+            <column datatype='string' name='PD_DESC' ordinal='3' />
+            <column datatype='integer' name='KY_CD' ordinal='4' />
+            <column datatype='string' name='OFNS_DESC' ordinal='5' />
+            <column datatype='string' name='LAW_CODE' ordinal='6' />
+            <column datatype='string' name='LAW_CAT_CD' ordinal='7' />
+            <column datatype='string' name='ARREST_BORO' ordinal='8' />
+            <column datatype='integer' name='ARREST_PRECINCT' ordinal='9' />
+            <column datatype='integer' name='JURISDICTION_CODE' ordinal='10' />
+            <column datatype='string' name='AGE_GROUP' ordinal='11' />
+            <column datatype='string' name='PERP_SEX' ordinal='12' />
+            <column datatype='string' name='PERP_RACE' ordinal='13' />
+            <column datatype='integer' name='X_COORD_CD' ordinal='14' />
+            <column datatype='integer' name='Y_COORD_CD' ordinal='15' />
+            <column datatype='real' name='Latitude' ordinal='16' />
+            <column datatype='real' name='Longitude' ordinal='17' />
+            <column datatype='string' name='New Georeferenced Column' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARREST_KEY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ARREST_KEY]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>ARREST_KEY</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARREST_DATE</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[ARREST_DATE]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>ARREST_DATE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PD_CD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PD_CD]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>PD_CD</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PD_DESC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PD_DESC]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>PD_DESC</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KY_CD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KY_CD]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>KY_CD</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OFNS_DESC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OFNS_DESC]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>OFNS_DESC</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAW_CODE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LAW_CODE]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>LAW_CODE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAW_CAT_CD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LAW_CAT_CD]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>LAW_CAT_CD</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARREST_BORO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ARREST_BORO]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>ARREST_BORO</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARREST_PRECINCT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ARREST_PRECINCT]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>ARREST_PRECINCT</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JURISDICTION_CODE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JURISDICTION_CODE]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>JURISDICTION_CODE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE_GROUP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AGE_GROUP]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>AGE_GROUP</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERP_SEX</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PERP_SEX]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>PERP_SEX</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERP_RACE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PERP_RACE]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>PERP_RACE</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X_COORD_CD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X_COORD_CD]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>X_COORD_CD</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Y_COORD_CD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Y_COORD_CD]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>Y_COORD_CD</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Georeferenced Column</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[New Georeferenced Column]</local-name>
+            <parent-name>[NYPD_Arrest_Data__Year_to_Date_.csv]</parent-name>
+            <remote-alias>New Georeferenced Column</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age Group' datatype='string' name='[AGE_GROUP]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;25-44&quot;' value='AGE 25-44 ' />
+        </aliases>
+      </column>
+      <column caption='Arrest Boro' datatype='string' name='[ARREST_BORO]' role='dimension' type='nominal' />
+      <column caption='Arrest Date' datatype='date' name='[ARREST_DATE]' role='dimension' type='ordinal' />
+      <column caption='Arrest Key' datatype='integer' name='[ARREST_KEY]' role='dimension' type='ordinal' />
+      <column caption='Arrest Precinct' datatype='integer' name='[ARREST_PRECINCT]' role='measure' type='quantitative' />
+      <column caption='Jurisdiction Code' datatype='integer' name='[JURISDICTION_CODE]' role='dimension' type='ordinal' />
+      <column caption='Ky Cd' datatype='integer' name='[KY_CD]' role='measure' type='quantitative' />
+      <column caption='Law Cat Cd' datatype='string' name='[LAW_CAT_CD]' role='dimension' type='nominal' />
+      <column caption='Law Code' datatype='string' name='[LAW_CODE]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Ofns Desc' datatype='string' name='[OFNS_DESC]' role='dimension' type='nominal' />
+      <column caption='Pd Cd' datatype='integer' name='[PD_CD]' role='measure' type='quantitative' />
+      <column caption='Pd Desc' datatype='string' name='[PD_DESC]' role='dimension' type='nominal' />
+      <column caption='Perp Race' datatype='string' name='[PERP_RACE]' role='dimension' type='nominal' />
+      <column caption='Perp Sex' datatype='string' name='[PERP_SEX]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;M&quot;' value='Male' />
+        </aliases>
+      </column>
+      <column caption='X Coord Cd' datatype='integer' name='[X_COORD_CD]' role='measure' type='quantitative' />
+      <column caption='Y Coord Cd' datatype='integer' name='[Y_COORD_CD]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='NYPD_Arrest_Data__Year_to_Date_.csv' datatype='table' name='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' role='measure' type='quantitative' />
+      <column-instance column='[AGE_GROUP]' derivation='None' name='[none:AGE_GROUP:nk]' pivot='key' type='nominal' />
+      <column-instance column='[OFNS_DESC]' derivation='None' name='[none:OFNS_DESC:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/NEU STUDY/2nd Quarter/Communication &amp; Visualization (ALY 6070)/Final Project/NYPD_Arrest_Data__Year_to_Date_.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/01/2024 11:05:54 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='NYPD_Arrest_Data__Year_to_Date_' increment-value='%null%' refresh-type='create' rows-inserted='170095' timestamp-start='2024-02-01 23:05:51.126' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ARREST_KEY</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ARREST_KEY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ARREST_KEY</remote-alias>
+              <ordinal>0</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>170095</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ARREST_DATE</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[ARREST_DATE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ARREST_DATE</remote-alias>
+              <ordinal>1</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>601</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PD_CD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PD_CD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PD_CD</remote-alias>
+              <ordinal>2</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>334</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PD_DESC</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PD_DESC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PD_DESC</remote-alias>
+              <ordinal>3</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>300</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>KY_CD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[KY_CD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>KY_CD</remote-alias>
+              <ordinal>4</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>114</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OFNS_DESC</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OFNS_DESC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OFNS_DESC</remote-alias>
+              <ordinal>5</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LAW_CODE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[LAW_CODE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LAW_CODE</remote-alias>
+              <ordinal>6</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1093</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LAW_CAT_CD</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[LAW_CAT_CD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LAW_CAT_CD</remote-alias>
+              <ordinal>7</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ARREST_BORO</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ARREST_BORO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ARREST_BORO</remote-alias>
+              <ordinal>8</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ARREST_PRECINCT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ARREST_PRECINCT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ARREST_PRECINCT</remote-alias>
+              <ordinal>9</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>76</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JURISDICTION_CODE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[JURISDICTION_CODE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JURISDICTION_CODE</remote-alias>
+              <ordinal>10</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AGE_GROUP</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AGE_GROUP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGE_GROUP</remote-alias>
+              <ordinal>11</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERP_SEX</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PERP_SEX]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERP_SEX</remote-alias>
+              <ordinal>12</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERP_RACE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PERP_RACE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERP_RACE</remote-alias>
+              <ordinal>13</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>X_COORD_CD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[X_COORD_CD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>X_COORD_CD</remote-alias>
+              <ordinal>14</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16187</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Y_COORD_CD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Y_COORD_CD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Y_COORD_CD</remote-alias>
+              <ordinal>15</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16359</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latitude</remote-alias>
+              <ordinal>16</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17116</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Longitude</remote-alias>
+              <ordinal>17</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17460</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New Georeferenced Column</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[New Georeferenced Column]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New Georeferenced Column</remote-alias>
+              <ordinal>18</ordinal>
+              <family>NYPD_Arrest_Data__Year_to_Date_.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17460</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:OFNS_DESC:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;ASSAULT 3 &amp; RELATED OFFENSES&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FELONY ASSAULT&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;DANGEROUS WEAPONS&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;ROBBERY&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MISCELLANEOUS PENAL LAW&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;VEHICLE AND TRAFFIC LAWS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DANGEROUS DRUGS&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;GRAND LARCENY&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CRIMINAL MISCHIEF &amp; RELATED OF&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;PETIT LARCENY&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:AGE_GROUP:nk]' palette='traffic_light_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;45-64&quot;</bucket>
+            </map>
+            <map to='#309143'>
+              <bucket>&quot;25-44&quot;</bucket>
+            </map>
+            <map to='#b60a1c'>
+              <bucket>&quot;&lt;18&quot;</bucket>
+            </map>
+            <map to='#f07e27'>
+              <bucket>&quot;18-24&quot;</bucket>
+            </map>
+            <map to='#f0e442'>
+              <bucket>&quot;65+&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='NYPD_Arrest_Data__Year_to_Date_.csv' id='NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71'>
+            <properties context=''>
+              <relation connection='textscan.1fzx9fy0we5ktu168i44h16gf0zl' name='NYPD_Arrest_Data__Year_to_Date_.csv' table='[NYPD_Arrest_Data__Year_to_Date_#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='ARREST_KEY' ordinal='0' />
+                  <column datatype='date' name='ARREST_DATE' ordinal='1' />
+                  <column datatype='integer' name='PD_CD' ordinal='2' />
+                  <column datatype='string' name='PD_DESC' ordinal='3' />
+                  <column datatype='integer' name='KY_CD' ordinal='4' />
+                  <column datatype='string' name='OFNS_DESC' ordinal='5' />
+                  <column datatype='string' name='LAW_CODE' ordinal='6' />
+                  <column datatype='string' name='LAW_CAT_CD' ordinal='7' />
+                  <column datatype='string' name='ARREST_BORO' ordinal='8' />
+                  <column datatype='integer' name='ARREST_PRECINCT' ordinal='9' />
+                  <column datatype='integer' name='JURISDICTION_CODE' ordinal='10' />
+                  <column datatype='string' name='AGE_GROUP' ordinal='11' />
+                  <column datatype='string' name='PERP_SEX' ordinal='12' />
+                  <column datatype='string' name='PERP_RACE' ordinal='13' />
+                  <column datatype='integer' name='X_COORD_CD' ordinal='14' />
+                  <column datatype='integer' name='Y_COORD_CD' ordinal='15' />
+                  <column datatype='real' name='Latitude' ordinal='16' />
+                  <column datatype='real' name='Longitude' ordinal='17' />
+                  <column datatype='string' name='New Georeferenced Column' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Georgia' fontsize='14'>Top 10 types of offenses</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='NYPD_Arrest_Data__Year_to_Date_' name='federated.1151yy41web51c1ffx2wr0afqpqi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1151yy41web51c1ffx2wr0afqpqi'>
+            <_.fcp.ObjectModelTableType.false...column caption='NYPD_Arrest_Data__Year_to_Date_.csv' datatype='integer' name='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' role='measure' type='quantitative' />
+            <column caption='Ofns Desc' datatype='string' name='[OFNS_DESC]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='NYPD_Arrest_Data__Year_to_Date_.csv' datatype='table' name='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OFNS_DESC]' derivation='None' name='[none:OFNS_DESC:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71])' function='order' user:ui-marker='order'>
+                <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='level-members' level='[none:OFNS_DESC:nk]' />
+                  <groupfilter function='member' level='[none:OFNS_DESC:nk]' member='&quot;(null)&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' scope='cols' value='Count of arrests' />
+            <format attr='height' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' value='62' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]' value='288' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' id='refline0' value='4' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='stroke-color' id='refline0' value='#000000' />
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#ff0000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]</rows>
+        <cols>[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]</cols>
+      </table>
+      <simple-id uuid='{F1595C64-41F6-49AE-85FC-165D2574F29F}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Georgia' fontsize='14'>Patterns in the age groups of individuals arrested</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='NYPD_Arrest_Data__Year_to_Date_' name='federated.1151yy41web51c1ffx2wr0afqpqi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1151yy41web51c1ffx2wr0afqpqi'>
+            <column caption='Age Group' datatype='string' name='[AGE_GROUP]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;25-44&quot;' value='AGE 25-44 ' />
+              </aliases>
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='NYPD_Arrest_Data__Year_to_Date_.csv' datatype='integer' name='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' role='measure' type='quantitative' />
+            <column caption='Ofns Desc' datatype='string' name='[OFNS_DESC]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='NYPD_Arrest_Data__Year_to_Date_.csv' datatype='table' name='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AGE_GROUP]' derivation='None' name='[none:AGE_GROUP:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OFNS_DESC]' derivation='None' name='[none:OFNS_DESC:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;&lt;18&quot;</bucket>
+              <bucket>&quot;18-24&quot;</bucket>
+              <bucket>&quot;25-44&quot;</bucket>
+              <bucket>&quot;45-64&quot;</bucket>
+              <bucket>&quot;65+&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]'>
+            <groupfilter count='3' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:OFNS_DESC:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' scope='rows' value='Count of arrests' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#ffffff' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='stroke-size' id='refline0' value='4' />
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]</rows>
+        <cols>([federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk] / [federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk])</cols>
+      </table>
+      <simple-id uuid='{9D2570BD-7A20-40E8-BEF2-594C855D08DC}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Georgia'>Most common offense and the offenders</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='NYPD_Arrest_Data__Year_to_Date_' name='federated.1151yy41web51c1ffx2wr0afqpqi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1151yy41web51c1ffx2wr0afqpqi'>
+            <column caption='Age Group' datatype='string' name='[AGE_GROUP]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;25-44&quot;' value='AGE 25-44 ' />
+              </aliases>
+            </column>
+            <column caption='Ofns Desc' datatype='string' name='[OFNS_DESC]' role='dimension' type='nominal' />
+            <column caption='Perp Race' datatype='string' name='[PERP_RACE]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='NYPD_Arrest_Data__Year_to_Date_.csv' datatype='integer' name='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' role='measure' type='quantitative' />
+            <column caption='Perp Sex' datatype='string' name='[PERP_SEX]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;M&quot;' value='Male' />
+              </aliases>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='NYPD_Arrest_Data__Year_to_Date_.csv' datatype='table' name='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AGE_GROUP]' derivation='None' name='[none:AGE_GROUP:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OFNS_DESC]' derivation='None' name='[none:OFNS_DESC:nk]' pivot='key' type='nominal' />
+            <column-instance column='[PERP_RACE]' derivation='None' name='[none:PERP_RACE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[PERP_SEX]' derivation='None' name='[none:PERP_SEX:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]'>
+            <groupfilter count='1' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:AGE_GROUP:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]'>
+            <groupfilter count='1' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71])' function='order' user:ui-marker='order'>
+                <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='level-members' level='[none:OFNS_DESC:nk]' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:OFNS_DESC:nk]' member='&quot;ADMINISTRATIVE CODES&quot;' />
+                    <groupfilter function='member' level='[none:OFNS_DESC:nk]' member='&quot;DISRUPTION OF A RELIGIOUS SERV&quot;' />
+                    <groupfilter function='member' level='[none:OFNS_DESC:nk]' member='&quot;PARKING OFFENSES&quot;' />
+                    <groupfilter function='member' level='[none:OFNS_DESC:nk]' member='&quot;UNLAWFUL POSS. WEAP. ON SCHOOL&quot;' />
+                    <groupfilter function='member' level='[none:OFNS_DESC:nk]' member='%null%' />
+                  </groupfilter>
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_RACE:nk]'>
+            <groupfilter count='3' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:PERP_RACE:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_SEX:nk]'>
+            <groupfilter count='1' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:PERP_SEX:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_RACE:nk]</column>
+            <column>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_SEX:nk]</column>
+            <column>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]</column>
+            <column>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='337' />
+            <format attr='height' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_SEX:nk]' value='276' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_SEX:nk]' value='104' />
+            <format attr='width' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]' value='200' />
+            <format attr='width' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]' value='112' />
+            <format attr='height-header' value='112' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_SEX:nk]' value='10' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Georgia' />
+            <format attr='font-size' value='10' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_RACE:nk]' />
+              <wedge-size column='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' />
+              <size column='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='12' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-family' value='Georgia' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-range-scope' value='table' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='size' value='1.3073480129241943' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk] / ([federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk] / [federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_SEX:nk]))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7F5596F5-4A36-47C7-905B-3EA6BA1FBF11}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#00007f' fontname='Georgia'>Analysis of NYPD Arrests Data</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='1000' maxwidth='1700' minheight='1000' minwidth='1700' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='5' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98400' id='8' param='vert' type-v2='layout-flow' w='99058' x='471' y='800'>
+            <zone h='4300' id='9' type-v2='title' w='99058' x='471' y='800'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='94100' id='6' type-v2='layout-basic' w='99058' x='471' y='5100' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='44400' id='3' name='Sheet 2' w='96235' x='118' y='50800'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+          </zone-style>
+        </zone>
+        <zone h='12700' id='4' name='Sheet 2' pane-specification-id='0' param='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]' type-v2='color' w='6118' x='89824' y='59200' />
+        <zone h='44600' id='10' name='Sheet 3' w='46471' x='49765' y='6200'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+          </zone-style>
+        </zone>
+        <zone h='9500' id='11' name='Sheet 3' pane-specification-id='0' param='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_RACE:nk]' type-v2='color' w='14235' x='79412' y='11900' />
+        <zone h='44600' id='12' name='Sheet 1' w='49471' x='294' y='6200'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#00007f' fontname='Georgia'>Analysis of NYPD Arrests Data</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98400' id='15' param='vert' type-v2='layout-flow' w='99058' x='471' y='800'>
+                <zone h='4300' id='9' type-v2='title' w='99058' x='471' y='800'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44600' id='12' is-fixed='true' name='Sheet 1' w='49471' x='294' y='6200'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44600' id='10' is-fixed='true' name='Sheet 3' w='46471' x='49765' y='6200'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9500' id='11' name='Sheet 3' pane-specification-id='0' param='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_RACE:nk]' type-v2='color' w='14235' x='79412' y='11900'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44400' id='3' is-fixed='true' name='Sheet 2' w='96235' x='118' y='50800'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12700' id='4' name='Sheet 2' pane-specification-id='0' param='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]' type-v2='color' w='6118' x='89824' y='59200'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CCF81F64-29E9-40C0-8C93-467715133BDB}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]' type='filter' />
+            <card param='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]</field>
+            <field>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EC64DE35-89A9-449F-9897-94A450960009}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{31AFFAC0-C6C2-471A-87ED-301E616BAE67}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_RACE:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1151yy41web51c1ffx2wr0afqpqi].[__tableau_internal_object_id__].[cnt:NYPD_Arrest_Data__Year_to_Date_.csv_55384DF23B2D450CB9A3B022EBD36D71:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]</field>
+            <field>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:OFNS_DESC:nk]</field>
+            <field>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_RACE:nk]</field>
+            <field>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:PERP_SEX:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{64C9EB85-A539-4397-80CF-20C77EC8F8A5}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1151yy41web51c1ffx2wr0afqpqi].[none:AGE_GROUP:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='12' />
+      <simple-id uuid='{0F6E3B8C-E051-4ECB-8D9D-AE5F02C53E12}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
